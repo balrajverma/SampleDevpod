@@ -1,22 +1,37 @@
 {
   "name": "SampleDevpod",
-  "version": "0.1.0",
-  "summary": "A short description of SampleDevpod.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.3.0",
+  "summary": "This description is used to generate tags and improve search results.",
+  "description": "Sample application for creating a devpod which can be used in Sample application",
+  "authors": "Sample author information added",
   "homepage": "https://github.com/564100/SampleDevpod",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
-  "authors": {
-    "564100": "verbalraj@gmail.com"
-  },
   "source": {
     "git": "https://github.com/564100/SampleDevpod.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "15.0"
   },
-  "source_files": "SampleDevpod/Classes/**/*"
+  "source_files": "SampleDevpod/Classes/**/*",
+  "exclude_files": "SampleDevpod/Classes/QA/**/*",
+  "subspecs": [
+    {
+      "name": "QA",
+      "source_files": [
+        "SampleDevpod/Classes/QA/**/*"
+      ],
+      "dependencies": {
+        "Mocker": [
+
+        ],
+        "SwiftLint": [
+
+        ]
+      }
+    }
+  ]
 }

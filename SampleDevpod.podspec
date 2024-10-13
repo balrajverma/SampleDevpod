@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
 
   s.subspec 'QA' do |debug_varient|
     debug_varient.source_files =  ['SampleDevpod/Classes/QA/**/*']
-    debug_varient.depedency 'mockingbird'
+    debug_varient.depedency 'Mocker'
     debug_varient.depedency 'SwiftLint'
   end 
 

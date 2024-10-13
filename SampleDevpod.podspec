@@ -21,5 +21,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
 
   s.source_files = 'SampleDevpod/Classes/**/*'
+  s.exclude_files = 'SampleDevpod/Classes/QA/**/*'
+
+  s.subspec 'QA' do |debug_varient|
+    debug_varient.source_files =  ['SampleDevpod/Classes/QA/**/*']
+    debug_varient.depedency 'mockingbird'
+    debug_varient.depedency 'SwiftLint'
+  end 
+
   
 end

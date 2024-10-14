@@ -17,9 +17,7 @@ PODS:
     - iOSSnapshotTestCase (~> 8.0)
     - Nimble
   - Quick (2.2.1)
-  - SampleDevpod (0.3.0):
-    - SampleDevpod/QA (= 0.3.0)
-  - SampleDevpod/QA (0.3.0):
+  - SampleDevpod/QA (0.4.0):
     - Mocker
     - SwiftLint
   - SwiftLint (0.57.0)
@@ -29,7 +27,7 @@ DEPENDENCIES:
   - Nimble (~> 10.0.0)
   - Nimble-Snapshots (~> 9.4.0)
   - Quick (~> 2.2.0)
-  - SampleDevpod (from `../`)
+  - SampleDevpod/QA (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -52,9 +50,9 @@ SPEC CHECKSUMS:
   Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
   Nimble-Snapshots: ef281b908c604f78c8313587e25ea92c8ab513d7
   Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
-  SampleDevpod: 265c3018b86b47de36d33554c0a006a5695a8a2d
+  SampleDevpod: 6ce1a666ae1fe1ebcbb9da117d2846e36282ad66
   SwiftLint: eb47480d47c982481592c195c221d11013a679cc
 
-PODFILE CHECKSUM: 26e2e40edabb1d24609185e873f238e24fe01a76
+PODFILE CHECKSUM: 00f284aeba252c704363e5db5462c712d765bc3c
 
 COCOAPODS: 1.15.2

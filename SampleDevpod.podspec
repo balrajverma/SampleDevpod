@@ -22,6 +22,7 @@ Pod::Spec.new do |s|
 
   s.source_files = 'SampleDevpod/Classes/**/*'
   s.exclude_files = 'SampleDevpod/Classes/QA/**/*'
+  s.default_subspec = :none
 
   s.subspec 'QA' do |debug_varient|
     debug_varient.source_files =  ['SampleDevpod/Classes/QA/**/*']

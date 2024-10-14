@@ -1,6 +1,6 @@
 {
   "name": "SampleDevpod",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "summary": "This description is used to generate tags and improve search results.",
   "description": "Sample application for creating a devpod which can be used in Sample application",
   "authors": "Sample author information added",
@@ -11,13 +11,14 @@
   },
   "source": {
     "git": "https://github.com/564100/SampleDevpod.git",
-    "tag": "0.3.0"
+    "tag": "0.4.0"
   },
   "platforms": {
     "ios": "15.0"
   },
   "source_files": "SampleDevpod/Classes/**/*",
   "exclude_files": "SampleDevpod/Classes/QA/**/*",
+  "default_subspecs": "none",
   "subspecs": [
     {
       "name": "QA",
